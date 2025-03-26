@@ -4,7 +4,7 @@ import axios from 'axios';
 import {IP} from '../constants'
 
 const BASE_URL = `http://${IP}:3000/api/v1/department`;
-
+// Oma changed it onece.
 // Thunks
 export const fetchAllDepartments = createAsyncThunk(
     'department/fetchAllDepartments',
@@ -132,3 +132,5 @@ const departmentSlice = createSlice({
 });
 
 export default departmentSlice.reducer;
+
+// OMA
