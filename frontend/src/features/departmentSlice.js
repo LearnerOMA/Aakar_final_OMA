@@ -132,3 +132,5 @@ const departmentSlice = createSlice({
 });
 
 export default departmentSlice.reducer;
+
+// OMA
